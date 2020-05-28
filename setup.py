@@ -4,7 +4,7 @@ from setuptools import setup
 import meta
 
 setup(
-    name='django-meta',
+    name='django-meta-image-fixed',
     description='Pluggable app for handling webpage meta tags and OpenGraph '
                 'properties',
     long_description=open('README.rst').read(),
@@ -17,7 +17,7 @@ setup(
     maintainer='Nephila',
     author_email='branko@monwara.com',
     maintainer_email='info@nephila.it',
-    url='https://github.com/nephila/django-meta',
+    url='https://github.com/cvereterra/django-meta',
     license='BSD',
     install_requires=[
         'six',
